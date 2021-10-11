@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@500&display=swap');
+
+
+body {
+    height: auto;
+    font-family: 'Baloo Da 2',
+        cursive;
+    font-size: 20px;
+    background-color: rgba(59, 44, 44, 0.541);
+}
+
+
+h1 {
+    padding: 10px;
+    color: white;
+    padding: 10px;
+}
+
+label {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 50px;
+    font-family: 'Baloo Da 2',
+        cursive;
+}
+
+#submit {
+    margin-left: 34%;
+    width: 140px;
+    transition: width 2s;
+    padding: 20px;
+
+
+}
+
+#submit:hover {
+    background-color: green;
+    color: black;
+    transform: scale(1.1);
+    border-radius: 5px;
+
+}
+
+#i {
+    padding-bottom: 100px;
+    padding: 30px;
+    transition: width 2s;
+    height: 20px;
+    width: 75%;
+    box-sizing: border-box;
+    margin-left: 50px;
+    text-align: center;
+    border: 4px solid rgba(132, 172, 54, 0.623);
+    font-size: medium;
+}
+
+#i:hover {
+    transform: scale(1.0);
+
+    border: 2px solid red;
+    border-radius: 5px;
+    background: #dfdddd;
+    box-shadow: 7px 7px 14px #c5b8b8,
+        -7px -7px 14px #fff3f3;
+    background-color: rgba(11, 241, 11, 0.541);
+    color: rgb(7, 6, 6);
+
+}
+
+::placeholder {
+    opacity: 50%;
+    color: rgba(101, 27, 238, 0.795);
+    font-family: 'Baloo Da 2',
+        cursive;
+}

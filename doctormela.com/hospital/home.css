@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@500&display=swap');
+
+
+body {
+    height: auto;
+    font-family: 'Baloo Da 2',
+        cursive;
+    font-size: 20px;
+}
+.hospital{
+    background-color: rgba(231, 16, 16, 0.945)!important;
+    
+}
+
+
+
+
+
